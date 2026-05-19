@@ -1,7 +1,7 @@
 # StockPulse
 StockPulse - Real-time stock market app for Android
 
-## Quick hardware FAQ
+## Support scope
 
-**Q:** Is there a transformer inside a 110V DC to 5V DC converter from Lütze?  
-**A:** Usually yes for isolated DC/DC designs (a high-frequency transformer is typically used), but the exact answer depends on the specific Lütze part number. Check the datasheet for that model to confirm whether it is isolated/transformer-based.
+StockPulse is a real-time stock market app for Android.
+For questions about third-party electrical hardware (for example, DC/DC converter internals), please verify details in the manufacturer datasheet for the exact part number.
