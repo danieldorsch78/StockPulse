@@ -72,7 +72,7 @@ At derated output 15.90 W:
 
 ## 2-pole MCB -> 1-pole MCB change impact
 
-## Electrical behavior difference
+### Electrical behavior difference
 - **2-pole MCB:** disconnects both DC conductors from the converter.
 - **1-pole MCB:** disconnects only one conductor; the other stays connected.
 
@@ -86,11 +86,11 @@ For an isolated DC/DC in rolling stock systems, replacing 2-pole with 1-pole can
 4. **Standards/compliance risk**
    - Railway installation rules or project safety case may require two-pole disconnection for this branch.
 
-## Calculation-based check (steady-state only)
+### Calculation-based check (steady-state only)
 Steady-state input current is low (roughly 0.16...1.16 A across listed conditions), so the main risk is **not** normal current magnitude.
 The main risk is **safety and fault isolation behavior** when one conductor remains connected.
 
-## Recommendation
+### Recommendation
 - Keep **2-pole MCB** unless system-level engineering confirms 1-pole remains compliant and safe.
 - Before any change, verify at minimum:
   1. DC system grounding/floating arrangement
